@@ -1,0 +1,18 @@
+<?php
+
+return array(
+    'router' => array(
+        'routes' => array(
+        ),
+    ),
+    'controllers' => array(
+        'invokables' => array(
+            'Album\Controller\Album' => 'Album\Controller\AlbumController'
+        ),
+    ),
+    'view_manager' => array(
+        'template_path_stack' => array(
+            __DIR__ . '/../view',
+        ),
+    ),
+);
